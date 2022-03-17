@@ -20,11 +20,11 @@
 }
 
 #toast-container>.toast-error {
-    background-image: url(/images/toast/error.png) !important;
+    background-image: url(/images/error.png) !important;
 }
 
 #toast-container>.toast-success {
-    background-image: url(/images/toast/success.png) !important;
+    background-image: url(/images/success.png) !important;
 }
 
 .toast {
