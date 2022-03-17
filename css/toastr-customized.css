@@ -20,11 +20,11 @@
 }
 
 #toast-container>.toast-error {
-    background-image: url(/images/error.png) !important;
+    background-image: url(/images/toast/error.png) !important;
 }
 
 #toast-container>.toast-success {
-    background-image: url(/images/success.png) !important;
+    background-image: url(/images/toast/success.png) !important;
 }
 
 .toast {
@@ -41,4 +41,23 @@
 
 .toast-title {
     margin-bottom: 8px;
+}
+
+.toast-close-button {
+    opacity: 1;
+    color: black;
+    font-size: 16px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    background: rgb(226, 224, 224);
+    transition: all 0.3s ease-in-out;
+}
+
+.toast-close-button:hover {
+    opacity: 1;
+    color: white;
+    background: rgb(230, 61, 61);
 }
